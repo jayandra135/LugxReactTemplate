@@ -1,0 +1,107 @@
+.shoppageheading {
+    text-align: center;
+}
+
+.shoppageheading h3 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.shoppageheading span {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+}
+
+.shoppageheading span a {
+    color: rgb(255, 255, 255);
+
+}
+
+/* ourshop trending */
+
+.trending-filter {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.trending-filter li {
+    display: inline-block;
+    margin: 5px 8px;
+    list-style: none;
+}
+
+.trending-filter li a {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(30, 30, 30);
+    background-color: rgb(238, 238, 238);
+    padding: 8px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease 0s;
+}
+
+.trending-filter li a.is_active {
+    background-color: rgb(238, 98, 107);
+    color: rgb(255, 255, 255);
+}
+
+/* pagination */
+.pagination {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 0px 5px;
+    list-style: none;
+}
+
+.pagination li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    color: rgb(30, 30, 30);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+
+.pagination li a.is_active {
+    background-color: rgb(0, 113, 248);
+    color: rgb(255, 255, 255);
+}
+
+/* media query */
+
+
+@media screen and (max-width:992px) {
+
+    .row {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    .apiRow {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
